@@ -1,0 +1,31 @@
+
+html, body{
+    margin: 0px;
+    background: url(./img/fondo\ casino.jpg);
+    background-size: 100%;
+    color: white;
+
+}
+
+
+.titulo {
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.carta {
+    height: 200px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#dealer-cartas, #jugador-cartas {
+    height: 250px;
+    margin-left: 50px;
+}
