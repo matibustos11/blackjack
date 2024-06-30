@@ -98,7 +98,7 @@ const turnoDealer = (puntosMinimos) => {
             Swal.fire({
                 title: `${resultado}`,
                 text: "Muy bien! Venciste al dealer.",
-                icon: "success"
+                icon: "success",
               });
         } else {
             resultado = 'Perdiste.';

@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw !important;
+}
 
-html, body{
-    margin: 0px;
+
+    body{
     background: url(./img/fondo\ casino.jpg);
-    background-size: 100%;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 
 }
@@ -28,4 +37,28 @@ html, body{
 #dealer-cartas, #jugador-cartas {
     height: 250px;
     margin-left: 50px;
+}
+
+/*MEDIA QUERIE MOBILE */
+
+@media (max-width: 700px){
+
+     body {
+        background-position: -500px center;
+        
+    }
+
+    .titulo {
+        height: 100px;
+        padding: 10px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    body {
+        background-position: -750px center;
+        
+    }
 }
